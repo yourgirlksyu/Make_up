@@ -1,0 +1,39 @@
+.form
+    padding-top: 85px
+    padding-bottom: 100px
+    background: url('../img/grad.jpg') no-repeat top / cover
+    &-title
+        text-align: center
+        font-size: 40px
+        margin-bottom: 40px
+    &-content
+        display: flex
+        flex-direction: column
+        align-items: center
+        margin-top: 30px
+        background: #ffffff
+        max-width: 600px
+        height: 380px
+        margin: auto
+        padding-top: 35px
+        border-radius: 15px
+        box-shadow:  2px 2px 2px 1px rgba(0, 0, 0, 0.2)
+        &--input
+            margin-bottom: 15px
+            width: 350px
+            height: 30px
+            color: $dark
+            border: none
+            border-bottom: 1px solid $dark
+        &__submit
+            margin-top: 20px
+            border-radius: 12px
+            padding: 10px 25px
+            border: none    
+            background: $grey
+            cursor: pointer
+            box-shadow:  2px 2px 2px 1px rgba(0, 0, 0, 0.2)
+            transition: all .10s
+            &:hover
+                transform: translateY(-3px)
+                background-color: #e09d51

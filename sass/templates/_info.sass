@@ -1,0 +1,41 @@
+.info
+    padding-top: 30px
+    padding-bottom: 30px
+    &-button
+        display: flex
+        justify-content: flex-start
+        transition: all .10s
+        &__item
+            margin-top: 25px
+            border: 1px solid $dark
+            padding: 9px 15px
+            box-shadow:  3px 2px 2px 1px rgba(0, 0, 0, 0.2)
+            cursor: pointer
+            border-radius: 25px
+            font-size: 20px
+            font-weight: bold
+            &:hover
+                transform: translateY(-5px)
+                background-color: #e09d51
+    &-content
+        display: flex
+        justify-content: space-between
+        &-list
+            padding: 0
+            margin-left: 15px
+            &__item
+                margin-bottom: 7px
+                font-size: 18px
+                font-weight: bold
+        &__title
+            margin-bottom: 30px
+            font-size: 40px
+        &__text
+            margin-bottom: 20px
+            font-size: 25px
+            max-width: 350px
+            font-weight: bold
+    &-all
+        display: flex
+        flex-direction: column
+        justify-content: center
